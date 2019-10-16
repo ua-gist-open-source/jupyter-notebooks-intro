@@ -35,8 +35,6 @@ _Look ahead to deliverables to find out what to save_
 2. California Housing.ipynb
 3. streetlights-assignment.ipynb
 
-### Create a new notebook
-
 ### _Helpful: Jupyter keyboard shortcuts_
 https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330
 
