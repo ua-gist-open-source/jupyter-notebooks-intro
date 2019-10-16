@@ -19,26 +19,34 @@ There are some additional steps to follow to allow Jupyter to recognize your ana
 
 ```
 conda activate python37
-conda install --yes -c conda-forge rasterstats requests scipy rasterio numpy pandas geopandas matplotlib descartes proj4==5.2.0
+conda install --yes -c conda-forge jupyter rasterstats requests scipy rasterio numpy pandas geopandas matplotlib descartes proj4==5.2.0
 ```
 
-### Open Anaconda Prompt
-In Jupyter Navigator, click on Environments. You should see the `python37` environment. Select it so that you get a green triangle indicating it is active, then go back to `Home`.
-
-### Install Jupyter Notebook
-Click on `Install` under the Jupyter Notebook icon. If you are prompted for an admin password and you don't have access, just click `Cancel`. It should still install.
-
 ### Launch Jupyter Notebook
-See [https://jupyter.readthedocs.io/en/latest/running.html#running](https://jupyter.readthedocs.io/en/latest/running.html#running) for details about running `Jupyter`. When you run launch jupyter you are actually running a server and will connect to it through the browser. From the browser you can create a new notebook or load a new one.
+In the `python37` environment in Anaconda Shell:
+```
+jupyter notebook
+```
+This will open your default browser and a file listing will be displayed. Jupyter Notebook is a server application running in your shell and the browser is the client. Navigate to the directory where you have checked out this repository. This is likely going to be `Documents` -> `GitHub` -> `jupyter-notebooks-intro` or similar.
 
-Go ahead and click `Launch` from `Anaconda Navigator`. When you launch Jupyter Notebook it will open a browser window with a file listing, likely pointed at your home directory. If you are using GitHub Desktop, you can navigate to the directory where you have cloned this repo to by opening `Documents` -> `GitHub Desktop` -> `(this repo)`. You will see a list of files, some of which are Jupyter Notebooks with a `.ipynb` file suffix.
+### Open and follow/execute the code in the three notebooks:
+_Look ahead to deliverables to find out what to save_
+1. hello.iphynb
+2. California Housing.ipynb
+3. streetlights-assignment.ipynb
 
+### Create a new notebook
 
-### Deliverabls
-
-
-
-### Jupyter keyboard shortcuts
+### _Helpful: Jupyter keyboard shortcuts_
 https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330
 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
+## Deliverables:
+Submit the following in a new branch with a pull request to merge with `master` of this repo:
+
+From `California Housing.ipynb`:
+1. Screenshot of final map
+
+From `streetlights-assignment.ipnyb`:
+2. Screenshot of `light_avg` map 
+3. Screenshot of chloropleth map of barricades by ward
+4. Screenshot of table showing barricades by ward
