@@ -19,12 +19,10 @@ There are some additional steps to follow to allow Jupyter to recognize your ana
 
 ```
 conda activate python37
-conda install --yes pip
-conda install --yes ipykernel
-python -m ipykernel install --user --name python37 --display-name "Python (3.7)"
+conda install --yes -c conda-forge rasterstats requests scipy rasterio numpy pandas geopandas matplotlib descartes proj4==5.2.0
 ```
 
-### Open Jupyter Navigator
+### Open Anaconda Prompt
 In Jupyter Navigator, click on Environments. You should see the `python37` environment. Select it so that you get a green triangle indicating it is active, then go back to `Home`.
 
 ### Install Jupyter Notebook
