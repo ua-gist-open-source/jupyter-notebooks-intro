@@ -47,6 +47,6 @@ From `California Housing.ipynb`:
 1. Screenshot of final map
 
 From `streetlights-assignment.ipnyb`:
-2. Screenshot of `light_avg` map 
-3. Screenshot of chloropleth map of barricades by ward
-4. Screenshot of table showing barricades by ward
+1. Screenshot of `light_avg` map 
+2. Screenshot of chloropleth map of barricades by ward
+3. Screenshot of table showing barricades by ward
