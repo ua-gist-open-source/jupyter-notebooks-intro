@@ -24,6 +24,7 @@ Reference:
 There are some additional steps to follow to allow Jupyter to recognize your anaconda environment. Open your Anaconda Shell and activate your `python37` environment, then use `ipykernel` to install the virtual environment connection with Jupyter. 
 
 ```
+conda create -n python37 python=3.7
 conda activate python37
 conda install --yes -c conda-forge jupyter rasterstats requests scipy rasterio numpy pandas geopandas matplotlib descartes proj4==5.2.0
 ```
