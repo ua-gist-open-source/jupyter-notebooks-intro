@@ -26,7 +26,7 @@ There are some additional steps to follow to allow Jupyter to recognize your ana
 ```
 conda create -n python37 python=3.7
 conda activate python37
-conda install --yes -c conda-forge jupyter requests scipynumpy pandas  matplotlib descartes geopandas rasterstats  rasterio 
+conda install --yes -c conda-forge jupyter requests scipy numpy pandas  matplotlib descartes geopandas rasterstats  rasterio 
 ```
 
 ### Launch Jupyter Notebook
