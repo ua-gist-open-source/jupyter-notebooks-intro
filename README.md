@@ -21,19 +21,10 @@ Reference:
 
 ## Directions
 ### Setup Conda Environment
-There are some additional steps to follow to allow Jupyter to recognize your anaconda environment. Open your Anaconda Shell and activate your `python37` environment, then use `ipykernel` to install the virtual environment connection with Jupyter. 
-
-```
-conda create -n python38 python=3.8
-conda activate python38
-conda install --yes -c conda-forge jupyter spyder requests scipy numpy pandas  matplotlib descartes geopandas rasterstats  rasterio 
-```
 
 ### Launch Jupyter Notebook
-In the `python37` environment in Anaconda Shell:
-```
-jupyter notebook
-```
+From the Anaconda Navigator, make sure your geo-3.7 environment is selected, and `Launch` Jupyter Notebook.
+
 This will open your default browser and a file listing will be displayed. Jupyter Notebook is a server application running in your shell and the browser is the client. Navigate to the directory where you have checked out this repository. This is likely going to be `Documents` -> `GitHub` -> `jupyter-notebooks-intro` or similar.
 
 ### Example Notebooks
