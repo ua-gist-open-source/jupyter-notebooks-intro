@@ -1,6 +1,4 @@
 # Lab: Spatial Python with Jupyter Notebooks
-## Worth: 50
-## Due: 7 days
 ## Assignment
 
 ## Deliverable
