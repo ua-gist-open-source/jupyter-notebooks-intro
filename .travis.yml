@@ -1,3 +1,0 @@
-script: .travis/check_files.sh
-before_install:
-  - chmod +x .travis/check_files.sh
