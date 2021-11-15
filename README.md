@@ -26,7 +26,7 @@ From the Anaconda Navigator, make sure your geo-3.7 environment is selected, and
 This will open your default browser and a file listing will be displayed. Jupyter Notebook is a server application running in your shell and the browser is the client. Navigate to the directory where you have checked out this repository. This is likely going to be `Documents` -> `GitHub` -> `jupyter-notebooks-intro` or similar.
 
 ### Example Notebooks
-Open and follow the notebooks, creating screenshots of the final map product in each one. 
+Open and follow the notebooks, creating screenshots of the final step in each one. 
 1. hello.iphynb (save screenshot as `screencap-hello.png`)
 2. California Housing.ipynb (save screenshot as `screencap-california-housing.png`)
 3. streetlights-assignment.ipynb (save screenshot as `screencap-streetlights.png`)
