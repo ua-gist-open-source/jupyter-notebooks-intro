@@ -2,11 +2,11 @@
 ## Assignment
 
 ## Deliverable
-`Pull request` to merge a new branch named `assignment` with `master`. Your branch should contain:
-1. `screencap-hello.png`
-2. `screencap-california-housing.png`
-3. `screencap-streetlights.png`
-4. `screencap-wards.png`
+`Pull request` to merge a new branch named `jupyter` with `master`. Your branch should contain:
+1. `screencap_hello.png`
+2. `screencap_california_housing.png`
+3. `screencap_streetlights.png`
+4. `screencap_wards.png`
 
 ## Background
 We previously worked with python within the framework of QGIS as well as the IDE. In this lab we are going to interact with python in what is called a Jupyter Notebook. Jupyter Notebooks are interactive apps set up for reproducible analysis and data science and are great for sharing methods with real examples. We are going to continue with geospatial python, showing an example with `fiona` as well as exploring `geopandas`, `rasterio`, and `rasterstats`.
@@ -27,9 +27,9 @@ This will open your default browser and a file listing will be displayed. Jupyte
 
 ### Example Notebooks
 Open and follow the notebooks, creating screenshots of the final step in each one. 
-1. hello.iphynb (save screenshot as `screencap-hello.png`)
-2. California Housing.ipynb (save screenshot as `screencap-california-housing.png`)
-3. streetlights-assignment.ipynb (save screenshot as `screencap-streetlights.png`)
+1. hello.iphynb (save screenshot as `screencap_hello.png`)
+2. California Housing.ipynb (save screenshot as `screencap_california_housing.png`)
+3. streetlights-assignment.ipynb (save screenshot as `screencap_streetlights.png`)
 
 ### Copy `streetlights-assignment.ipynb` and use it as the basis for a new notebook
 Copy the `streetlights-assignment.ipynb` notebook to a new one called `wards-barricades.ipynb` which will be a 
@@ -56,7 +56,7 @@ Relevant docs:
 - [Pandas `groupby`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.GroupBy.count.html)
 - [Pandas `merge`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html#pandas.DataFrame.merge)
 
-4. Take a screenshot of your final map product and name it `screencap-wards.png`
+4. Take a screenshot of your final map product and name it `screencap_wards.png`
 
 ### _Helpful: Jupyter keyboard shortcuts_
 https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330

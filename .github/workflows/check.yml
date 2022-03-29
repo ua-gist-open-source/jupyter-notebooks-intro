@@ -1,0 +1,62 @@
+name: Check for required files
+
+on:
+  push:
+    branches: [ jupyter ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check screencap_hello.png
+        id: check_1_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_hello.png"
+
+      - name: Required files exist
+        if: steps.check_1_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_hello.png', is missing
+          exit 1
+          
+      - name: Check screencap_california_housing.png
+        id: check_2_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_california_housing.png"
+
+      - name: Required files exist
+        if: steps.check_2_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_california_housing.png', is missing
+          exit 1
+          
+          
+      - name: Check screencap_streetlights.png
+        id: check_3_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_streetlights.png"
+
+      - name: Required files exist
+        if: steps.check_3_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_streetlights.png', is missing
+          exit 1
+          
+          
+      - name: Check screencap_wards.png
+        id: check_4_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_wards.png"
+
+      - name: Required files exist
+        if: steps.check_4_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_wards.png', is missing
+          exit 1
+          
